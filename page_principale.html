@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,7 @@
         <meta name="decription" content="Venez visiter mon site pour mon association Rescous'chiens d'aide aux chiens abandonnés, nous leur donnons une nouvelle vie avec vous">
         <title>Rescous'chiens</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="container-fluid"></div>
@@ -16,8 +17,13 @@
                         <h1>Rescous'chiens</h1>
                     </div>
                 </div>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                    <div class="collapse navbar-collapse">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-down" viewBox="0 0 16 16">
+                            <path d="M7.646.146a.5.5 0 0 1 .708 0L10.207 2H14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.793L7.646.146zM1 7v3h14V7H1zm14-1V4a1 1 0 0 0-1-1h-3.793a1 1 0 0 1-.707-.293L8 1.207l-1.5 1.5A1 1 0 0 1 5.793 3H2a1 1 0 0 0-1 1v2h14zm0 5H1v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zM2 4.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav mr-auto mb-2">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Accueil</a>
@@ -35,25 +41,25 @@
                         <article class="row justify-content-center test-justify">
                             <div class="col">
                                 <h2>Pourquoi cette association ?</h2>
-                                <p>J'ai toujours aimé les animaux, je suis possesseur d'un chien et ça me fait de la peine à chaque fois de voir aux infos les chien qui abandonnet leur chiens pendant les vacances.
+                                <p class="para">J'ai toujours aimé les animaux, je suis possesseur d'un chien et ça me fait de la peine à chaque fois de voir aux infos les chien qui abandonnet leur chiens pendant les vacances.
                                     Les chiens ne sont pas des peluches qu'on jette à la moindre contrariété, ce sont des êtres vivant dont ils faut s'occuper comme on s'ocuuperait de nos parents ou grands-parents qu'on met à la maison de retraite quand ils deviennent trop vieux.
                                     Donc j'ai créé cette association pour recueillir les chien abandonnés par leur maitre , les aider et essayer de leur trouver un autre maitre qui saura s'ocupper d'eux.
                                 </p>
-                                <p>Pour mon second paragraphe pas trop d'idée, alors je vait mettre du lorem ipsum
+                                <p class="para">Pour mon second paragraphe pas trop d'idée, alors je vait mettre du lorem ipsum
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique augue non nibh imperdiet dictum.
                                     In hac habitasse platea dictumst.
                                     Donec porttitor odio ante, vitae rutrum nunc fringilla id. Etiam fermentum tellus eu arcu malesuada,
                                     consectetur semper arcu consectetur.
                                 </p>
-                                <p>
+                                <p class="para">
                                     In urna lorem, maximus vitae dolor in, ullamcorper maximus purus. Mauris lacus mauris, facilisis vel
                                     mattis ac, blandit rutrum ante.
-                                    Merci d'avoir lu cette article, si vous voulez nous rencontrer nous sommes au xxxxxxx et télephone 060000000
+                                    Merci d'avoir lu cette article, si vous voulez nous rencontrer nous sommes au 10 rue du grand chien à Dogcity et télephone <a href="tel: 060000000">060000000</a>
                                 </p>
                                 <h4>Derniers chiens arrivé au refuge</h4>
                                 <div class="table-responsive">
                                     <table class="table table-striped text-center table-mobile">
-                                        <thead class="bg-dark text-white vertical-align:middle">
+                                        <thead class="bg-secondary text-white vertical-align:middle">
                                             <tr>
                                                 <th scope="col">Photo</th>
                                                 <th scope="col">Nom</th>
@@ -62,28 +68,28 @@
                                                 <th scope="col">Sexe</th>                                         
                                             </tr>
                                             <tr>
-                                                <th scope="row"><img src="teckel.jpg" alt="Teckel"></th>
+                                                <th scope="row"><img src="teckel.jpg" alt="Teckel" class="image"></th>
                                                 <td>Roma</td>
                                                 <td>Teckel</td>
                                                 <td>5 ans</td>
                                                 <td>Femelle</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><img src="labrador.jpg" alt="Labrador"></th>
+                                                <th scope="row"><img src="labrador.jpg" alt="Labrador" class="image"></th>
                                                 <td>Jacki</td>
                                                 <td>Labrador</td>
                                                 <td>10 ans</td>
                                                 <td>Male</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><img src="huskie.jpg" alt="Huskie"></th>
+                                                <th scope="row"><img src="huskie.jpg" alt="Huskie" class="image"></th>
                                                 <td>Alfred</td>
                                                 <td>Huskie</td>
                                                 <td>7 ans</td>
                                                 <td>Male</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><img src="caniche.jpg" alt="Caniche"></th>
+                                                <th scope="row"><img src="caniche.jpg" alt="Caniche" class="image"></th>
                                                 <td>Micheline</td>
                                                 <td>Caniche</td>
                                                 <td>2 ans</td>
@@ -114,7 +120,15 @@
                 </div>
             </section>
             <footer>
-                <p>Aucun droits reservés</p>
+                <div>
+                    <p>10 route du grand chien</p>
+                    <p>Dogcity</p>
+                </div>
+                <div>
+                    <p><a href="tel: 00000000">Notre telephone</a></p>
+                    <p><a href="mailto: chien@example.com">Notre adresse mail</a></p>
+                    <p>Ce site est fait pour un exercice</p>
+                </div>
             </footer>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

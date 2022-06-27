@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="decription" content="Venez voir les difféerents événements organisés par Rescous'Chiens l'association d'aide aux chiens abandonnés">
         <title>Evenements à venir</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="container">
@@ -15,11 +17,16 @@
                         <h1>Rescous'chiens</h1>
                     </div>
                 </div>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                    <div class="collapse navbar-collapse">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-down" viewBox="0 0 16 16">
+                            <path d="M7.646.146a.5.5 0 0 1 .708 0L10.207 2H14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.793L7.646.146zM1 7v3h14V7H1zm14-1V4a1 1 0 0 0-1-1h-3.793a1 1 0 0 1-.707-.293L8 1.207l-1.5 1.5A1 1 0 0 1 5.793 3H2a1 1 0 0 0-1 1v2h14zm0 5H1v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zM2 4.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="page_principale.html">Home</a>
+                                <a class="nav-link" href="page_principale.html">Accueil</a>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Evenements</a>
@@ -111,7 +118,15 @@
             </div>
         </div>
         <footer>
-            <p>Aucun droits reservés</p>
+            <div>
+                <p>10 route du grand chien</p>
+                <p>Dogcity</p>
+            </div>
+            <div>
+                <p><a href="tel: 00000000">Notre telephone</a></p>
+                <p><a href="mailto: chien@example.com">Notre adresse mail</a></p>
+                <p>Ce site est fait pour un exercice</p>
+            </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </body>

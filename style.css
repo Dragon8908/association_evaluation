@@ -1,0 +1,41 @@
+body {
+    background: lightblue;
+}
+.para{
+    color: green;
+}
+footer{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+p, h2, h3, h4{
+    text-align: center;
+    justify-content: center;
+}
+h1, h2, h3, h4{
+    font-weight: bolder;
+}
+h1{
+    font-style: italic;
+}
+.image{
+    height: 50%;
+    width: 50%;
+}
+@media screen and (max-width: 576px){
+    .image{
+        display: none;
+    }
+    /*changement de couleurs pour voir diff en mobile*/
+    .para{
+        color: red;
+    }
+    body{
+        background: darkblue;
+    }
+}
